@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Heyyy thereee!!!!!!    </h1>
+    <div class="container">
+       <div class="left">
+        <form id="form">
+            <label for="">WRITE SOMETHINGH!!!!</label>
+            <br>
+            <br>
+            
+            <textarea name="" id="input" cols="30" rows="15"></textarea>
+            <div id="msg"></div>
+            <br>
+            <button type="submit">SUBMIT</button>
+        </form>
+       </div>
+       <div class="right">
+       <h3>HERE YOU CAN EDIT OR DELETE YOUR TEXT</h3>
+       <div id="posts">
+        <div>
+            <p>Post 1</p>
+            <span class="options">
+                <button   onclick ="editPost(this)">EDIT</button>
+                <button onclick="deletePost(this)">DELETE</button>
+            </span>
+        </div>
+        <div> 
+            <p>Post 2</p>
+            <span class="options">
+                <button  onclick ="editPost(this)">EDIT</button>
+                <button onclick="deletePost(this)">DELETE</button>
+            </span>
+        </div>
+    </div> 
+       </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
